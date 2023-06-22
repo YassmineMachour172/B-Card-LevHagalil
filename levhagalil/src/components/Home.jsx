@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import logo from '../images/logo.png'
 import facebook from '../images/facebook.png'
-import insta from '../images/3D.webp'
+import insta from '../images/insta.png'
 import tiktok from '../images/tiktok.png'
 
 export default function Home() {
@@ -21,22 +21,19 @@ export default function Home() {
                 </center>
         </header>
         <div className="row" id='contactUs'>
-            <div className="col"><h1>  </h1></div>
-            <div className="col"><h1>  </h1></div>
+            
             <div className="col"><h1>W</h1></div>
             <div className="col"><h1>E</h1></div>
             <div className="col"><h1>  </h1></div>
             <div className="col"><h1>A</h1></div>
             <div className="col"><h1>R</h1></div>
             <div className="col"><h1>E</h1></div>
-            <div className="col"><h1>  </h1></div>
-            <div className="col"><h1>  </h1></div>
         </div>
         <main>
             <br/>
             <div className="row">
                 <div className="col">
-                <h1>לב הגליל</h1>
+                    <h1>לב הגליל</h1>
 
                 </div>
                 <div className="col">
@@ -87,7 +84,6 @@ export default function Home() {
                 <a href='https://www.tiktok.com/@levhagalil8'><img id="tiktok" src={tiktok} alt=''/></a>
             </div>
             <div className="col">
-                <br/>
                 <button type='button' className='button-72'><a href='https://levhagalil.co.il/'>Web-Site</a></button>
             </div>
         </div>

@@ -1,19 +1,22 @@
 html{
-    background-color: rgb(241, 237, 237);
+    background-image: linear-gradient(white, white);
 }
 .container-fluid{
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    background-blend-mode:lighten;
+    background-image: linear-gradient(lightblue, white);
 }
 #contactUs
 {
     font-family: 'Times New Roman', Times, serif;
     background-color: lightblue;
+    flex-wrap:wrap;
 }
 h1{
-    
+    border: 30px;
+    border-color: black;
     font-weight: bolder;
+}
+.col{
+    
 }
 #header {
     height: 30%;
@@ -21,6 +24,7 @@ h1{
   }
   .row {
     text-align: center;
+    
   }
   
   #facebook {
