@@ -73,9 +73,6 @@ export default function Home() {
             <div className="col"><h1>A</h1></div>
             <div className="col"><h1>C</h1></div>
             <div className="col"><h1>T</h1></div>
-            <div className="col"><h1> </h1></div>
-            <div className="col"><h1>U</h1></div>
-            <div className="col"><h1>S</h1></div>
         </div>
         <br/>
         <br/>
