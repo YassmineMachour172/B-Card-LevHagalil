@@ -12,62 +12,70 @@ export default function Home() {
     function handleClick(){
         <a href='https://levhagalil.co.il/'></a>
     }
-    const backgroundImage = {
-        backgroundImage: 'url(../images/background.jpg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      };
+    
   return (
-    <div className='container-fluid' style={backgroundImage}>
+    <div className='container-fluid'>
         <header >
                 <center>
                     <img id="header" src={logo} alt=''/>
                 </center>
         </header>
+        <div className="row" id='contactUs'>
+            <div className="col"><h1>  </h1></div>
+            <div className="col"><h1>  </h1></div>
+            <div className="col"><h1>W</h1></div>
+            <div className="col"><h1>E</h1></div>
+            <div className="col"><h1>  </h1></div>
+            <div className="col"><h1>A</h1></div>
+            <div className="col"><h1>R</h1></div>
+            <div className="col"><h1>E</h1></div>
+            <div className="col"><h1>  </h1></div>
+            <div className="col"><h1>  </h1></div>
+        </div>
         <main>
             <br/>
             <div className="row">
                 <div className="col">
-                <h4>לב הגליל</h4>
+                <h1>לב הגליל</h1>
 
                 </div>
                 <div className="col">
-                    <h4>שם המכללה</h4>
+                    <h1>שם המכללה</h1>
                 </div>
             </div>
             <br/>
             <div className="row">
                 <div className="col">
-                <h4>050-991-1111</h4>
+                <h1>050-991-1111</h1>
                 </div>
                 <div className="col">
-                <h4>טלפון</h4>
+                <h1>טלפון</h1>
                 </div>
             </div>
             <br/>
             <div className="row">
                 <div className="col">
-                <h4>מר' זהר בדארנה</h4>
+                <h1>מר' זהר בדארנה</h1>
                 </div>
                 <div className="col">
-                <h4>מנכ"ל הרשת</h4>
+                <h1>מנכ"ל הרשת</h1>
                 </div>
             </div>
         </main>
         <footer>
             <br/>
             <br/>
-        <div className="row">
-            <div className="col">C</div>
-            <div className="col">O</div>
-            <div className="col">N</div>
-            <div className="col">T</div>
-            <div className="col">A</div>
-            <div className="col">C</div>
-            <div className="col">T</div>
-            <div className="col">  </div>
-            <div className="col">U</div>
-            <div className="col">S</div>
+        <div className="row" id='contactUs'>
+            <div className="col"><h1>C</h1></div>
+            <div className="col"><h1>O</h1></div>
+            <div className="col"><h1>N</h1></div>
+            <div className="col"><h1>T</h1></div>
+            <div className="col"><h1>A</h1></div>
+            <div className="col"><h1>C</h1></div>
+            <div className="col"><h1>T</h1></div>
+            <div className="col"><h1>  </h1></div>
+            <div className="col"><h1>U</h1></div>
+            <div className="col"><h1>S</h1></div>
         </div>
         <br/>
         <br/>
@@ -82,6 +90,7 @@ export default function Home() {
                 <a href='https://www.tiktok.com/@levhagalil8'><img id="tiktok" src={tiktok} alt=''/></a>
             </div>
             <div className="col">
+                <br/>
                 <button type='button' className='button-72'><a href='https://levhagalil.co.il/'>Web-Site</a></button>
             </div>
         </div>
